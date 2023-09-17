@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Finder</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .header-grid{
+            display: grid;
+            grid-template-rows: 2.7rem 9rem;
+        }
+        .navbar{
+            grid-area: 1;
+            background-color: #1a1da2;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: #f64c72;
+            flex-wrap: wrap;
+        }
+        .title{
+            grid-area: 2;
+            background-color: #1e1ebe;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        li{
+            display: inline;
+            padding-left: 2rem;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 1.1rem;
+        }
+        h1{
+            font-size: 4rem;
+            color: white;
+            font-family: 'Cabin', sans-serif;
+        }
+        span{
+            color:#f64c72 ;
+        }
+        /* --bodySection-- */
+
+        .body-section{
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        .body-conatiner{
+            padding: 1rem;
+        }
+        .body-h2{
+            font-size: 2.5rem;
+            font-family: 'Oxygen', sans-serif;
+            margin-top: 2rem;
+            margin-bottom: .7rem;
+        }
+        .content-h2{
+            margin-top: 3rem;
+            font-size: 2.1rem;
+        }
+        .body-para{
+            font-family: 'Ubuntu', sans-serif;
+
+            text-align: justify;
+            font-size: 1.2rem;
+            margin-bottom: .8em;
+        }
+        </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="header-section">
+        <div class="header-container">
+            <div class="header-grid">
+                <div class="navbar">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Courses</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="title">
+                    <h1>course<span>finder</span></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="body-section">
+        <div class="body-conatiner">
+            <h2 class="body-h2">Find Courses</h2>
+            <p class="body-para">
+                Discover Top Courses and Expert Instructors on 'Course Finder' – Your Ultimate Learning Hub! Explore a vast array of platforms, connect with the best instructors, and access a world of knowledge. Elevate your learning experience today!
+            </p>
+            <p class="body-para">At 'Find Courses,' we curate content from the best e-learning platforms, ensuring you have access to high-quality, up-to-date courses. Our rigorous selection process guarantees that you receive top-tier instruction from industry professionals and subject matter experts.</p>
+            
+            <h2 class="body-h2 content-h2">Best courses for <span>Web Development</span></h2>
+            <p class="body-para">There are not any best course for Web Development available in the world. It
+                totally depends on the opinion of the person who is suggesting you for any course which 
+                he himself finds most suitable for him. But there are some courses that are suitable for  
+                both beginner and experienced coder. if you are a biginner who is starting his coding journey then 
+                go for <b>Angela Yu</b> Web Development course it is very beginner friendly course available on
+                <b>Udemy</b> also it is the most valuable and affordable course it is available under ₹500. 
+                You will learn all the bacis of HTML, CSS, Javascript, Node.js, Express.js, MongoDB, SQL and more.
+            </p>
+            <p class="body-para">
+                If you already learned basics of Web Development or after completion of this course you can go for <b>NEOG</b> 
+                Web Development course to learn more about Javascript and Vanilla.js and more Development 
+                things. This course is free but there is a paid version of this course which helps you to learn 
+                advance of Web Development and also after completing that course they will help you in placement.
+                If you want a free source of more knowledge about Javascript you can go for their free course.
+            </p>
+        </div>
+    </section>
+</body>
+</html>
